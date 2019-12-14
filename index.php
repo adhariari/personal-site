@@ -1,3 +1,14 @@
+<?php
+//date in mm/dd/yyyy format; or it can be in other formats as well
+$birthDate = "06/05/1996";
+//explode the date to get month, day and year
+$birthDate = explode("/", $birthDate);
+//get age from date or birthdate
+$age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+    ? ((date("Y") - $birthDate[2]) - 1)
+    : (date("Y") - $birthDate[2]));
+// echo "Age is:" . $age;
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -224,8 +235,8 @@
 									</div>
 									<ul class="profile-wrap mt-50">
 										<li>
-											<div class="profile-title">Birth</div>
-											<div class="profile-desc">Bogor, 5 June 1996</div>
+											<div class="profile-title">Age</div>
+											<div class="profile-desc"><?php echo $age; ?></div>
 										</li>
 										<li>
 											<div class="profile-title">Nationality</div>
@@ -440,13 +451,13 @@
 					<h2 class="pull-left float-none-xs">portfolio</h2>
 					<div class="filter-wrap pull-right float-none-xs">
 						<!-- Portfolio Filters --> 
-<!-- 									<ul id="filters">
+									<ul id="filters">
 										<li><a id="all" href="#" data-filter="*" class="active">all</a></li>	
-										<li><a href="#" data-filter=".branding">branding</a></li>
-										<li><a href="#" data-filter=".design">design</a></li>
+										<li><a href="#" data-filter=".freelance">Freelance</a></li>
+										<!-- <li><a href="#" data-filter=".design">design</a></li>
 										<li><a href="#" data-filter=".photography">photo</a></li>
-										<li><a href="#" data-filter=".web">web</a></li>
-									</ul> -->
+										<li><a href="#" data-filter=".web">web</a></li> -->
+									</ul>
 									<!--/Portfolio Filters -->
 									<div class="clearfix"></div>
 								</div> 
@@ -455,59 +466,59 @@
 							<div class="gallery-wrap mb-30">
 								<div class="portfolio-wrap project-gallery">
 									<ul id="portfolio" class="portf auto-construct  project-gallery" data-col="3">
-										<li  class="item mdl-card mdl-shadow--2dp pa-0 branding">
+										<li  class="item mdl-card mdl-shadow--2dp pa-0">
 											<div class="light-img-wrap mdl-card__title pa-0">
 												<img class="img-responsive" src="img/gallery1.jpg"  alt="Image description" />
 												<div class="light-img-overlay"></div>
 											</div>	
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px;">Contras News</a>
+												<a  href="http://contrasnews.com" style="padding: 0px;" target="_blank">Contras News</a>
 											</span>
 										</li>
-										<li class="item mdl-card mdl-shadow--2dp pa-0  photography">
+										<li class="item mdl-card mdl-shadow--2dp pa-0">
 											<div class="light-img-wrap mdl-card__title pa-0">
 												<img class="img-responsive" src="img/gallery2.jpg"  alt="Image description" />
 												<div class="light-img-overlay"></div>
 											</div>
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px;">Rekan Konstruksi</a>
+												<a  href="http://www.rekan.web.id" style="padding: 0px;" target="_blank">Rekan Konstruksi</a>
 											</span>
 										</li>
-										<li class="item mdl-card mdl-shadow--2dp pa-0 design">
+										<li class="item mdl-card mdl-shadow--2dp pa-0 freelance">
 											<div class="light-img-wrap mdl-card__title pa-0">
 												<img class="img-responsive" src="img/gallery3.jpg"  alt="Image description" />
 												<div class="light-img-overlay"></div>
 											</div>
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px;">SIG Bangunan KTA</a>
+												<a  href="portofolio/sigkta" style="padding: 0px;" target="_blank">SIG Bangunan KTA</a>
 											</span>
 										</li>
-										<li class="item mdl-card mdl-shadow--2dp pa-0 web">
+										<li class="item mdl-card mdl-shadow--2dp pa-0 freelance">
 											<div class="light-img-wrap mdl-card__title pa-0">
 												<img class="img-responsive" src="img/gallery4.jpg"  alt="Image description" />
 												<div class="light-img-overlay"></div>
 											</div>
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px; font-size: 20px;">Service Motor on Delivery</a>
+												<a  href="portofolio/sermod" style="padding: 0px; font-size: 20px;" target="_blank">Service Motor on Delivery</a>
 											</span>
 										</li>
 										
-										<li class="item mdl-card mdl-shadow--2dp pa-0 design">
+										<li class="item mdl-card mdl-shadow--2dp pa-0 freelance">
 											<div class="light-img-wrap mdl-card__title pa-0">
 												<img class="img-responsive" src="img/gallery5.jpg"  alt="Image description" />
 												<div class="light-img-overlay"></div>
 											</div>
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px;">Negeri Poster</a>
+												<a  href="portofolio/poster" style="padding: 0px;" target="_blank">Negeri Poster</a>
 											</span>
 										</li>
-										<li class="item mdl-card mdl-shadow--2dp pa-0 branding">
+										<li class="item mdl-card mdl-shadow--2dp pa-0 freelance">
 											<div class="light-img-wrap mdl-card__title pa-0">
 												<img class="img-responsive" src="img/gallery6.jpg"  alt="Image description" />
 												<div class="light-img-overlay"></div>
 											</div>
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px; font-size: 16px;">Application Management Event</a>
+												<a  href="portofolio/event" style="padding: 0px; font-size: 16px;" target="_blank">Application Management Event</a>
 											</span>
 										</li>
 										
@@ -663,7 +674,7 @@
 																<li>• Hosting the website to Idcloudhost web hosting</li>
 																<li>• Use Bootstrap 4 framework CSS to make beautiful and responsive website</li>
 																<li>• Use MySQL Database for any CRUD process</li>
-																<li>• Use tawk.to interactive chat API to servecustomers</li>
+																<li>• Use tawk.to interactive chat API to serve customers</li>
 															</ul>
 														</div>
 													</div>
@@ -815,7 +826,7 @@
 														</div>
 													</div>
 													<div class="timeline-body">
-														<p class="mt-25" style="text-align:justify">When i was in BEM FIKTI Gunadarma, i became a project officer of the seminar who held in Campus J1 Kalimalang. The topic of the seminar is about Windows 10 with Mr. Irving Hutagalung as the speakers from Microsoft Indonesia. Also became as coordinator of Public Relations, Publications and Documentation of the biggest technology event Techno Fair 2016 which held Seminars, Talkshows, Workshops and Exhibitions in 4 domicile Gunadarma University</p>
+														<p class="mt-25" style="text-align:justify">When i was in BEM FIKTI Gunadarma, i became a project officer of the seminar who held in Campus J1 Kalimalang. The topic of the seminar is about Windows 10 with Mr. Irving Hutagalung as the speakers from Microsoft Indonesia. Also became as coordinator of Public Relations, Publications and Documentation of the biggest event technology Techno Fair 2016 which held Seminars, Talkshows, Workshops and Exhibitions in 4 domicile Gunadarma University</p>
 													</div>
 												</div>
 											</li>
