@@ -35,7 +35,7 @@
 			<header class="mdl-layout__header">
 				<div class="mdl-layout__header-row mdl-scroll-spy-1">
 					<!-- Title -->
-					<a href="index.html"><span class="mdl-layout-title">Adhari</span></a>
+					<a href="index.php"><span class="mdl-layout-title">Adhari</span></a>
 					<div class="mdl-layout-spacer"></div>
 					<ul class="nav mdl-navigation mdl-layout--large-screen-only">
 						<li><a class="mdl-navigation__link" data-scroll href="#body">about</a></li>
@@ -95,7 +95,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="instagram-link" href="https://www.instagram.com/ariganesha/" target="_blank">
+						<a class="instagram-link" href="https://www.instagram.com/adhariarii/" target="_blank">
 							<i id="tt15" class="zmdi zmdi-instagram"></i>
 							<div class="mdl-tooltip" data-mdl-for="tt15">
 								instagram
@@ -204,7 +204,7 @@
 											</a>
 										</li>
 										<li>
-											<a class="instagram-link" href="https://www.instagram.com/ariganesha/" target="_blank">
+											<a class="instagram-link" href="https://www.instagram.com/adhariarii/" target="_blank">
 												<i id="tt15" class="zmdi zmdi-instagram"></i>
 												<div class="mdl-tooltip" data-mdl-for="tt15">
 													instagram
@@ -285,7 +285,7 @@
 						<h2 class="mb-30">Technical Skills</h2>
 						<div class="mdl-card mdl-shadow--2dp">
 							<div class="mb-30">
-								<span class="progress-cat">PHP Native/Framework</span>
+								<span class="progress-cat">PHP Native/Framework (Laravel) </span>
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap red-bar">
@@ -299,7 +299,7 @@
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap blue-bar">
-											<span data-width="83"></span>
+											<span data-width="87"></span>
 										</div>
 									</div>
 								</div>
@@ -309,17 +309,17 @@
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap green-bar">
-											<span data-width="80"></span>
+											<span data-width="85"></span>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="mb-30">
-								<span class="progress-cat">Adobe Photoshop</span>
+								<span class="progress-cat">Javascript</span>
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap yellow-bar">
-											<span data-width="70"></span>
+											<span data-width="75"></span>
 										</div>
 									</div>
 								</div>
@@ -329,7 +329,7 @@
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap red-bar">
-											<span data-width="75"></span>
+											<span data-width="78"></span>
 										</div>
 									</div>
 								</div>
@@ -337,10 +337,10 @@
 						</div>
 					</div>
 					<div class="col-sm-6 mb-30">
-						<h2 class="mb-30">Soft Skills</h2>
+						<h2 class="mb-30">Other Skills</h2>
 						<div class="mdl-card mdl-shadow--2dp">
 							<div class="mb-30">
-								<span class="progress-cat">Communication</span>
+								<span class="progress-cat">Git Version Control</span>
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap red-bar">
@@ -350,31 +350,31 @@
 								</div>
 							</div>
 							<div class="mb-30">
-								<span class="progress-cat">Leadership</span>
+								<span class="progress-cat">Adobe Photoshop</span>
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap blue-bar">
+											<span data-width="95"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mb-30">
+								<span class="progress-cat">Adobe Illustrator</span>
+								<div class="progress-bar-graph">
+									<div class="progress-bar-wrap">
+										<div class="bar-wrap green-bar">
 											<span data-width="80"></span>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="mb-30">
-								<span class="progress-cat">Organized</span>
-								<div class="progress-bar-graph">
-									<div class="progress-bar-wrap">
-										<div class="bar-wrap green-bar">
-											<span data-width="75"></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="mb-30">
-								<span class="progress-cat">Team Work</span>
+								<span class="progress-cat">Adobe Premiere</span>
 								<div class="progress-bar-graph">
 									<div class="progress-bar-wrap">
 										<div class="bar-wrap yellow-bar">
-											<span data-width="75"></span>
+											<span data-width="85"></span>
 										</div>
 									</div>
 								</div>
@@ -470,7 +470,7 @@
 												<div class="light-img-overlay"></div>
 											</div>
 											<span class="bottom-links mdl-card__actions" style="text-align: center;">
-												<a  href="project-detail.html" style="padding: 0px;">8 Points</a>
+												<a  href="project-detail.html" style="padding: 0px;">Rekan Konstruksi</a>
 											</span>
 										</li>
 										<li class="item mdl-card mdl-shadow--2dp pa-0 design">
@@ -571,7 +571,7 @@
 
 								<!--Experience Sec-->
 								<section id="experience_sec" class="experience-sec sec-pad-top-sm">
-									<h2 class="mb-30">experience of Work</h2>
+									<h2 class="mb-30">Working Experience</h2>
 									<div class="timeline-wrap  overflow-hide mb-30">
 										<ul class="timeline">
 											<li>
@@ -586,7 +586,7 @@
 														<div class="col-sm-8">
 															<div class="timeline-heading">
 																<h4 class="mb-10">IT Application and EOD Support Consultant</h4>
-																<span class="duration mb-5">Nov 2018 - present</span>
+																<span class="duration mb-5">Nov 2018 - Oct 2019</span>
 																<span class="institution">PT. Midas Daya Teknologi<br>IT Vendor & Consulting</span>
 															</div>
 														</div>
@@ -594,13 +594,13 @@
 													<div class="timeline-body">
 														<p class="mt-25" style="text-align:justify">PT Midas Daya Teknologi is an IT Consulting, Product and Services company. Started by professionals who have deep experience in core banking transformation, development, enterprise architecture, infrastructure design and management, big data solutions and project management.</p>
 														<div class="mt-15 responsibility">
-															<p>Responsibility (Client EXIM Bank):</p>
+															<p>Responsibility (Indonesia Exim Bank Client):</p>
 															<ul>
-																<li></li>
-																<li>• Using Oracle Flexcube Core Banking for bank transaction</li>
-																<li>• Tunning End of Day Process</li>
-																<li>• Generating report every End of Month</li>
-																<li>• Solve bank issue or raise it to MOS</li>															
+																<li>• As a technical engineer to enhance or maintain core banking (Oracle Flexcube)</li>
+																<li>• Coordinating technical and functional aspect between bank & Oracle team (Indonesia & India)</li>
+																<li>• Managing core banking database and weblogic deployment, do patching from backend using PL/SQL</li>
+																<li>• Solving more over 59 operational issues in production / development environment</li>
+																<li>• Implementing CL Account Branch Transfer, Collateral and SWIFT Message as core banking enhancement</li>															
 															</ul>
 														</div>
 													</div>
@@ -618,7 +618,7 @@
 														<div class="col-sm-8">
 															<div class="timeline-heading">
 																<h4 class="mb-10">Web Programmer</h4>
-																<span class="duration mb-5">Jan 2018 - present</span>
+																<span class="duration mb-5">Jan 2018 - Jan 2019</span>
 																<span class="institution">Contras News<br>Media Portal</span>
 															</div>
 														</div>
@@ -631,13 +631,45 @@
 																<li>• Responsible to create website using CMS </li>
 																<li>• Hosting the website to Qwords web hosting</li>
 																<li>• Setting layout for news article and widget</li>
-																<li>• Optimizing SEO of contrasnews.com</li>
+																<li>• Optimizing SEO</li>
 															</ul>
 														</div>
 													</div>
 												</div>
 											</li>
 											<li>
+												<div class="timeline-badge">
+													<i class="zmdi zmdi-case font-blue"></i>
+												</div>
+												<div class="timeline-panel mdl-card mdl-shadow--2dp pt-30 pb-30 border-top-blue">
+													<div class="row">
+														<div class="col-sm-4">
+															<img src="img/rekan.jpg" width="96" height="96">
+														</div>
+														<div class="col-sm-8">
+															<div class="timeline-heading">
+																<h4 class="mb-10">Project Web Developer</h4>
+																<span class="duration mb-5">Sep 2018 - Dec 2018</span>
+																<span class="institution">Rekan Konstruksi<br>Construction Company</span>
+															</div>
+														</div>
+													</div>
+													<div class="timeline-body">
+														<p class="mt-25" style="text-align:justify">Rekan Konstruksi is a small company focused in Construction building, renovation and installation. This company needs a website for potential customers to find out information about estimated construction / renovation costs.</p>
+														<div class="mt-15 responsibility">
+															<p>Responsibility :</p>
+															<ul>
+																<li>• Responsible to create website using PHP Native for any back-end process (Front-end and Admin Dashboard)</li>
+																<li>• Hosting the website to Idcloudhost web hosting</li>
+																<li>• Use Bootstrap 4 framework CSS to make beautiful and responsive website</li>
+																<li>• Use MySQL Database for any CRUD process</li>
+																<li>• Use tawk.to interactive chat API to servecustomers</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>												
+											<li class="timeline-inverted">
 												<div class="timeline-badge">
 													<i class="zmdi zmdi-case font-blue"></i>
 												</div>
@@ -663,11 +695,19 @@
 																<li>• Make client's idea dream come true.</li>
 																<li>• Design web based on client needs.</li>
 															</ul>
+															<br>
+															<ul>
+															<p>Work on Products :</p>																
+																<li>• Sistem Informasi Geografis Bangunan KTA</li>
+																<li>• Service Motor on Delivery</li>
+																<li>• Negeri Poster</li>
+																<li>• Application Event Management</li>
+															</ul>
 														</div>
 													</div>
 												</div>
-											</li>											
-											<li class="timeline-inverted">
+											</li>																					
+											<li>
 												<div class="timeline-badge">
 													<i class="zmdi zmdi-case font-yellow"></i>
 												</div>
@@ -1280,7 +1320,7 @@
 									</a>
 								</li>
 								<li>
-									<a class="instagram-link" href="https://www.instagram.com/ariganesha/" target="_blank">
+									<a class="instagram-link" href="https://www.instagram.com/adhariarii/" target="_blank">
 										<i id="tt10" class="zmdi zmdi-instagram"></i>
 										<div class="mdl-tooltip" data-mdl-for="tt10">
 											instagram
