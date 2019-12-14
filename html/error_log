@@ -1,0 +1,12 @@
+[14-Dec-2019 05:17:47 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'ENCRYPTION_STARTTLS' in /home/adharimy/public_html/html/contact-form.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/adharimy/public_html/html/contact-form.php on line 23
+[14-Dec-2019 05:18:33 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'ENCRYPTION_STARTTLS' in /home/adharimy/public_html/html/contact-form.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/adharimy/public_html/html/contact-form.php on line 23
+[14-Dec-2019 05:18:33 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'ENCRYPTION_STARTTLS' in /home/adharimy/public_html/html/contact-form.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/adharimy/public_html/html/contact-form.php on line 23
